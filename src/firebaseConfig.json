@@ -1,0 +1,10 @@
+{
+  "firebaseConfig": {
+    "apiKey": "AIzaSyCKjSC8XiMD2Gn9prpQSFkR5swp0pcdOuM",
+    "authDomain": "gerenciadordeorcamentos.firebaseapp.com",
+    "projectId": "gerenciadordeorcamentos",
+    "storageBucket": "gerenciadordeorcamentos.appspot.com",
+    "messagingSenderId": "56695907272",
+    "appId": "1:56695907272:web:41348fd9e8cf376e44d6fd"
+  }
+}

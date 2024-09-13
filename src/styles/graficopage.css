@@ -1,0 +1,26 @@
+.pagina-graficos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pagina-graficos h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.grafico-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.grafico {
+  flex: 1;
+  max-width: 85%; 
+}
+

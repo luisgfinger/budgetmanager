@@ -1,0 +1,53 @@
+.sobre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  max-width: 37.5rem;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sobre-avatar {
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 50%;
+  margin-bottom: 1.25rem;
+}
+
+.sobre-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+  color: #333;
+}
+
+.sobre-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+  color: #666;
+}
+
+.sobre-container p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0.9375rem;
+  text-align: justify;
+}
+
+.github-link {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 0.625rem;
+}
+
+.github-link:hover {
+  color: #333;
+  font-size: 1.1rem;
+}
