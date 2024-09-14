@@ -25,16 +25,20 @@ Clone o repositório:
 bash
 Copiar código
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
 Entre no diretório do projeto:
 
 bash
+
 Copiar código
 cd nome-do-repositorio
 Instale as dependências:
 
 bash
+
 Copiar código
 npm install
+
 Configure o Firebase:
 
 Crie um projeto no Firebase Console.
