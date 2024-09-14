@@ -9,7 +9,7 @@ header {
     justify-content: center; 
     align-items: center;
     padding: 1rem;
-    background-color: #f8f9fa;
+    background-color: #FCF0F0;
     border-bottom: 2px solid #ddd;
     position: relative;
   }
@@ -41,12 +41,11 @@ header {
   
   .header-nav ul li {
     font-size: 1rem;
-    color: #007bff;
+    color: #E6765E;
   }
   
   .header-nav ul li:hover {
     text-decoration: none;
-    color: #333;
     font-size: 1.1rem;
     cursor: pointer;
   }

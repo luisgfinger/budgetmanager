@@ -1,16 +1,13 @@
-/* CSS para o Dashboard */
 
-/* Container geral do dashboard */
 .dashboard-container {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #f9f9f9;
-  border-radius: 10px;
+  background-color: #fad5a9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Exibição do saldo dentro do container dashboard */
+
 .dashboard-container .saldo {
   text-align: center;
   margin-bottom: 20px;
@@ -18,11 +15,11 @@
 
 .dashboard-container .saldo h2 {
   font-size: 28px;
-  color: #4CAF50;
+  color: black;
   margin: 0;
 }
 
-/* Menu de navegação dentro do container dashboard */
+
 .dashboard-container .dashboard-menu {
   margin-bottom: 20px;
   display: flex;
@@ -40,21 +37,21 @@
 .dashboard-container .dashboard-menu li {
   cursor: pointer;
   padding: 10px 20px;
-  background-color: #007BFF;
-  color: white;
+  background-color: #fcf0f0;
+  color: black;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .dashboard-container .dashboard-menu li:hover {
-  background-color: #0056b3;
+  background-color: #F5B1A2;
 }
 
 .dashboard-container .dashboard-menu li.active {
-  background-color: #28A745;
+  background-color: #F5B1A2;
+  color: black;
 }
 
-/* Responsividade dentro do container dashboard */
 @media (max-width: 768px) {
   .dashboard-container {
     padding: 10px;

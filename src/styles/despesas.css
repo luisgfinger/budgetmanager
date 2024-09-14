@@ -1,11 +1,9 @@
-/* Estilos para o componente de Despesas */
+
 .despesas-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: none;
   }
   
   .despesas-container h2,
@@ -33,17 +31,16 @@
   }
   
   .despesas-container button {
-    background-color: #28a745;
-    color: white;
+    background-color: #f5b1a2;
+    color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   .despesas-container button:hover {
-    background-color: #218838;
+    background-color: #da9c8f;
   }
-  
-  /* Estilos para a lista de despesas */
+
   .despesas-container ul {
     list-style: none;
     padding: 0;
@@ -52,9 +49,8 @@
   .despesas-container ul li {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #fcf0f0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,24 +68,6 @@
   
   .despesas-container ul li button:hover {
     background-color: #c82333;
-  }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .despesas-container {
-      padding: 10px;
-    }
-  
-    .despesas-container input,
-    .despesas-container select,
-    .despesas-container button {
-      font-size: 14px;
-    }
-  
-    .despesas-container ul li {
-      flex-direction: column;
-      align-items: flex-start;
-    }
   }
   
   .close-button {

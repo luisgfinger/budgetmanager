@@ -2,9 +2,8 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: none;
+   
 }
   
 .receitas-container h2,
@@ -32,14 +31,14 @@
 }
   
 .receitas-container button {
-    background-color: #28a745;
-    color: white;
+    background-color: #f5b1a2;
+    color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
   
 .receitas-container button:hover {
-    background-color: #218838;
+    background-color: #da9c8f;
 }
   
 .receitas-container ul {
@@ -50,9 +49,8 @@
 .receitas-container ul li {
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #fcf0f0;
     display: flex;
     justify-content: space-between;
     align-items: center;

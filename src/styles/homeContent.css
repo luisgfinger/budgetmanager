@@ -1,0 +1,25 @@
+#homeContent-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;       
+    background-color: #FAD5A9;
+  }
+  
+  #homeContent-items {
+    max-width: 80%;
+    text-align: center;        
+    background-color:#FCF0F0;  
+    padding: 20px;            
+    border-radius: 10px;    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+
+  a{
+    color: #E6765E;
+  }
+
+  a:hover{
+    color: #dd593b;
+  }
+  
