@@ -25,6 +25,7 @@ Clone o repositório:
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 Entre no diretório do projeto:
+
 cd nome-do-repositorio
 
 Instale as dependências:
@@ -37,6 +38,7 @@ Crie um projeto no Firebase Console.
 Adicione as configurações do Firebase no arquivo firebaseConfig.ts na pasta src.
 
 Inicie o servidor de desenvolvimento:
+
 npm start
 
 Acesse o projeto no navegador:
@@ -46,9 +48,11 @@ Deploy
 Este projeto está configurado para deploy no Firebase Hosting. Para realizar o deploy:
 
 Faça o build do projeto:
+
 npm run build
 
 Faça o deploy para o Firebase:
+
 firebase deploy
 
 Contribuição
