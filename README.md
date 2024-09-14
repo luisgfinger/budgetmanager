@@ -21,12 +21,15 @@ Instalação
 Siga os passos abaixo para configurar o projeto localmente:
 
 Clone o repositório:
+
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 Entre no diretório do projeto:
+
 cd nome-do-repositorio
 
 Instale as dependências:
+
 npm install
 
 Configure o Firebase:
