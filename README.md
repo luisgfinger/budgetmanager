@@ -21,51 +21,34 @@ Instalação
 Siga os passos abaixo para configurar o projeto localmente:
 
 Clone o repositório:
-
-bash
-Copiar código
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
 Entre no diretório do projeto:
-
-bash
-
-Copiar código
 cd nome-do-repositorio
+
 Instale as dependências:
-
-bash
-
-Copiar código
 npm install
 
 Configure o Firebase:
 
 Crie um projeto no Firebase Console.
 Adicione as configurações do Firebase no arquivo firebaseConfig.ts na pasta src.
+
 Inicie o servidor de desenvolvimento:
-
-bash
-Copiar código
 npm start
-Acesse o projeto no navegador:
 
-arduino
-Copiar código
+Acesse o projeto no navegador:
 http://localhost:3000
+
 Deploy
 Este projeto está configurado para deploy no Firebase Hosting. Para realizar o deploy:
 
 Faça o build do projeto:
-
-bash
-Copiar código
 npm run build
-Faça o deploy para o Firebase:
 
-bash
-Copiar código
+Faça o deploy para o Firebase:
 firebase deploy
+
 Contribuição
 Se você deseja contribuir com este projeto, siga os passos abaixo:
 
