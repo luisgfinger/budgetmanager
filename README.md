@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+Gerenciador de Orçamento Pessoal
+Este é um sistema de Gerenciamento de Orçamento Pessoal desenvolvido em React com TypeScript e integração com o Firebase. O objetivo deste projeto é permitir que os usuários gerenciem suas finanças pessoais, adicionando e categorizando despesas e receitas, além de visualizar gráficos e acompanhar o saldo total.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Funcionalidades
+Autenticação de usuários: Login com Google e email/senha utilizando o Firebase Authentication.
+Gerenciamento de Despesas: Adicionar, editar e excluir despesas, além de categorizá-las.
+Gerenciamento de Receitas: Adicionar, editar e excluir receitas, categorizando-as.
+Visualização de Gráficos: Gráficos de pizza para visualizar despesas por categoria.
+Dashboard Financeiro: Exibição de um resumo com total de despesas, receitas e saldo.
+Responsividade: Layout adaptado para dispositivos móveis e desktops.
+Tecnologias Utilizadas
+React: Biblioteca para construção da interface do usuário.
+TypeScript: Tipagem estática para o código JavaScript.
+Firebase:
+Firestore: Banco de dados em tempo real.
+Authentication: Gerenciamento de autenticação de usuários.
+React Router: Navegação entre páginas.
+Chart.js: Exibição de gráficos de despesas por categoria.
+Estrutura de Pastas
+bash
+Copiar código
+├── src
+│   ├── assets               # Imagens e logos
+│   ├── components           # Componentes reutilizáveis, como gráficos
+│   ├── context              # Contextos para gerenciamento de estado global
+│   ├── pages                # Páginas como Home, Dashboard, Sobre
+│   ├── styles               # Arquivos de estilos (CSS)
+│   ├── firebaseConfig.ts    # Configurações do Firebase
+│   └── App.tsx              # Componente principal da aplicação
+Instalação
+Siga os passos abaixo para configurar o projeto localmente:
 
-## Available Scripts
+Clone o repositório:
 
-In the project directory, you can run:
+bash
+Copiar código
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Entre no diretório do projeto:
 
-### `npm start`
+bash
+Copiar código
+cd nome-do-repositorio
+Instale as dependências:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+bash
+Copiar código
+npm install
+Configure o Firebase:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Crie um projeto no Firebase Console.
+Adicione as configurações do Firebase no arquivo firebaseConfig.ts na pasta src.
+Inicie o servidor de desenvolvimento:
 
-### `npm test`
+bash
+Copiar código
+npm start
+Acesse o projeto no navegador:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+arduino
+Copiar código
+http://localhost:3000
+Deploy
+Este projeto está configurado para deploy no Firebase Hosting. Para realizar o deploy:
 
-### `npm run build`
+Faça o build do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copiar código
+npm run build
+Faça o deploy para o Firebase:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copiar código
+firebase deploy
+Contribuição
+Se você deseja contribuir com este projeto, siga os passos abaixo:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Faça um fork do repositório.
+Crie uma branch para sua feature (git checkout -b feature/nova-feature).
+Faça o commit de suas alterações (git commit -m 'Adiciona nova feature').
+Envie para a branch principal (git push origin feature/nova-feature).
+Abra um Pull Request.
