@@ -16,17 +16,7 @@ Firestore: Banco de dados em tempo real.
 Authentication: Gerenciamento de autenticação de usuários.
 React Router: Navegação entre páginas.
 Chart.js: Exibição de gráficos de despesas por categoria.
-Estrutura de Pastas
-bash
-Copiar código
-├── src
-│   ├── assets               # Imagens e logos
-│   ├── components           # Componentes reutilizáveis, como gráficos
-│   ├── context              # Contextos para gerenciamento de estado global
-│   ├── pages                # Páginas como Home, Dashboard, Sobre
-│   ├── styles               # Arquivos de estilos (CSS)
-│   ├── firebaseConfig.ts    # Configurações do Firebase
-│   └── App.tsx              # Componente principal da aplicação
+
 Instalação
 Siga os passos abaixo para configurar o projeto localmente:
 
