@@ -35,12 +35,6 @@ export default function GraficoPage() {
         <div className="grafico">
           <GraficoReceitasPorCategoria userId={userId} />
         </div>
-      </div>
-
-      <div className="grafico-row">
-        <div className="grafico">
-          <GraficoComparacaoReceitasDespesas userId={userId} />
-        </div>
         <div className="grafico">
           <GraficoComparacaoReceitasDespesas userId={userId} />
         </div>

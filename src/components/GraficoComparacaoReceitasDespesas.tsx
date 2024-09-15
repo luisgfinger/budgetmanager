@@ -55,7 +55,7 @@ export default function GraficoComparacaoReceitasDespesas({ userId }: GraficoCom
 
   return (
     <div className='grafico-container'>
-      <h2>Comparação Receitas vs Despesas</h2>
+      <h2>Receitas vs Despesas</h2>
       <Pie data={comparacaoData} />
     </div>
   );
