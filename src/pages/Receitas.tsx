@@ -21,7 +21,7 @@ interface ReceitasProps {
 export default function Receitas({ userId }: ReceitasProps) {
   const [receitas, setReceitas] = useState<any[]>([]);
   const [categoriasReceita, setCategoriasReceita] = useState<any[]>([]);
-  const [totalReceitas, setTotalReceitas] = useState(0); // Estado para o total de receitas
+  const [totalReceitas, setTotalReceitas] = useState(0); 
   const [showReceitaForm, setShowReceitaForm] = useState(false);
   const [showCategoriaForm, setShowCategoriaForm] = useState(false);
   const [newReceita, setNewReceita] = useState({

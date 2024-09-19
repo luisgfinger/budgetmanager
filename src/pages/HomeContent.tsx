@@ -3,7 +3,6 @@ import '../styles/homeContent.css'
 export default function HomeContent() {
   return (
     <div id='homeContent-container'>
-      <div id='homeContent-items'>
         <section className="intro">
           <h1>Bem-vindo ao Gerenciador de Orçamento Pessoal</h1>
           <p>
@@ -49,6 +48,5 @@ export default function HomeContent() {
           </section>
         </section>
       </div>
-    </div>
   );
 }

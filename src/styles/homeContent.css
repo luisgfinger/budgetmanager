@@ -1,12 +1,13 @@
 #homeContent-container {
     display: flex;
+    flex-direction: column;
     justify-content: center; 
-    align-items: center;     
+    align-items: center;
     min-height: 100vh;       
     background-color: #FAD5A9;
   }
   
-  #homeContent-items {
+  .intro {
     max-width: 80%;
     text-align: center;        
     background-color:#FCF0F0;  

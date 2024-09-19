@@ -76,9 +76,7 @@ export default function Home() {
           <Route path="/" element={<HomeContent />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/login" element={<Login />} />
-
-  
+          <Route path="/login" element={<Login />} />  
           <Route
             path="/dashboard"
             element={
